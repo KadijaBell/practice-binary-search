@@ -1,6 +1,12 @@
 function linearSearch (arr, target) {
 
   // Can you solve this in one line?
+  for(let i = 0; i < arr.length; i++){
+    if(arr[i] === target){
+      return target
+    }
+  }
+  return -1;
 
 };
 
